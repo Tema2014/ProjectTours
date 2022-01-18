@@ -11,6 +11,6 @@ public class HomeController {
         model.addAttribute("login", login);
         model.addAttribute("password", password);
 
-        return "home_page";
+        return "index";
     }
 }
